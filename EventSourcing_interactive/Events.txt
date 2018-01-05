@@ -1,0 +1,57 @@
+﻿Events.DirectDebitCreated {
+  "AccountNumber": "11223344",
+  "SortCode": "556677",
+  "PayerNamer": "Uncle Ben",
+  "CustomerId": "4ff57ddd-4cb6-e511-80ee-3863bb358fa0",
+  "MandateReference": "SP-HACVQO-YF6B",
+  "Timestamp": "2017-06-01T13:43:28.2363434+01:00"
+}
+Events.DirectDebitActivated {
+  "MandateReference": "SP-HACVQO-YF6B",
+  "Timestamp": "2017-06-15T13:43:27.3486165+01:00"
+}
+Events.PaymentSent {
+  "Amount": 27.0,
+  "PaymentReference": "ORD-70998-Y5X8F3",
+  "ToSendOn": "2017-07-15T13:05:03.4995873+01:00",
+  "MandateReference": "SP-HACVQO-YF6B",
+  "Timestamp": "2017-07-14T13:05:03.4995873+01:00"
+}
+Events.PaymentConfirmed {
+  "PaymentReference": "ORD-70998-Y5X8F3",
+  "MandateReference": "SP-HACVQO-YF6B",
+  "Timestamp": "2017-07-21T11:00:05.15819+01:00"
+}
+Events.DirectDebitAccountTransferred {
+  "NewAccountNumber": "99009900",
+  "NewSortCode": "887788",
+  "MandateReference": "SP-HACVQO-YF6B",
+  "Timestamp": "2017-08-15T10:00:16.6343352+01:00"
+}
+Events.DirectDebitActivated {
+  "MandateReference": "SP-HACVQO-YF6B",
+  "Timestamp": "2017-08-29T13:43:27.3486165+01:00"
+}
+Events.PaymentSent {
+  "Amount": 13.5,
+  "PaymentReference": "ORD-71000-S5M8W1",
+  "ToSendOn": "2017-09-28T11:30:14.4471754+01:00",
+  "MandateReference": "SP-HACVQO-YF6B",
+  "Timestamp": "2017-09-28T11:30:14.4471754+01:00"
+}
+Events.PaymentFailed {
+  "PaymentReference": "ORD-71000-S5M8W1",
+  "MandateReference": "SP-HACVQO-YF6B",
+  "Timestamp": "2017-10-05T11:00:05.15819+01:00"
+}
+Events.DirectDebitCancelled {
+  "CancelledOn": "2017-10-05T00:00:00",
+  "Reason": "Cancelled by payer",
+  "MandateReference": "SP-HACVQO-YF6B",
+  "Timestamp": "2017-10-05T11:00:05.15819+01:00"
+}
+Events.DirectDebitReinstated {
+  "ReinstatedOn": "2017-12-02T00:00:00",
+  "MandateReference": "SP-HACVQO-YF6B",
+  "Timestamp": "2017-12-05T10:00:19.381111+00:00"
+}
